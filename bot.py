@@ -5,8 +5,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import qrcode
 
 # --- CONFIG ---
-API_ID = 24391673
-API_HASH = "8677c3857e841852037989528628373b"
+API_ID = 17963091
+API_HASH = "cd65e421232d0a205426e5e015dc9acd"
 BOT_TOKEN = "7752119330:AAH8m6A_fD8N_rE9B565l59L57Y1m39pEoo"
 UPI_ID = "shivam2171@axl"
 
