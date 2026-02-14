@@ -39,7 +39,10 @@ async def main():
         await asyncio.Event().wait()
 
 if __name__ == "__main__":
+    # Render (Python 3.14) ke liye special loop fix
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
     try:
-        asyncio.run(main())
+        loop.run_until_complete(main())
     except KeyboardInterrupt:
         pass
