@@ -1,9 +1,0 @@
-version: "3.9"
-
-services:
-  upi-bot:
-    container_name: upi-bot
-    build:
-      context: .
-      dockerfile: Dockerfile
-    restart: unless-stopped
