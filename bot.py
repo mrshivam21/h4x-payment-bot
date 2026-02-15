@@ -7,7 +7,7 @@ import qrcode
 # --- CONFIG ---
 API_ID = 17963091
 API_HASH = "cd65e421232d0a205426e5e015dc9acd"
-BOT_TOKEN = "7752119330:AAH8m6A_fD8N_rE9B565l59L57Y1m39pEoo"
+BOT_TOKEN = "8372041270:AAFlxDUwYVY8HvoIlmOxBqPESoBtgL30aLE"
 UPI_ID = "shivam2171@axl"
 
 app = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
